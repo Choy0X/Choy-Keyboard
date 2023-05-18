@@ -31,7 +31,7 @@ This documentation provides an overview and description of the custom input layo
 
 ## Example Image
 
-![Example Image]([image link](https://i.imgur.com/KMb2ane.png))
+![example](https://i.imgur.com/KMb2ane.png)
 
 ## Use Example
 ```javascript
