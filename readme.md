@@ -29,8 +29,8 @@ This documentation provides an overview and description of the custom input layo
   - [textAlign](#textalign)
 - [Usage](#usage)
 
-#Use Example
-```
+## Use Example
+```javascript
   const Data = exports['choy-keyboard'].showInput(InputExample);
   console.log('Received Data', Data);
 ```
