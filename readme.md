@@ -29,6 +29,10 @@ This documentation provides an overview and description of the custom input layo
   - [textAlign](#textalign)
 - [Usage](#usage)
 
+## Example Image
+
+![Example Image]([image link](https://i.imgur.com/KMb2ane.png))
+
 ## Use Example
 ```javascript
   const Data = exports['choy-keyboard'].showInput(InputExample);
