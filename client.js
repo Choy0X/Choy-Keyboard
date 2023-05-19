@@ -1,14 +1,14 @@
+RegisterNuiCallbackType('submitData');
+RegisterNuiCallbackType('close')
 async function showInput(InputData = []) {
     SetNuiFocus(true, true);
 
     const Data = await new Promise((resolve) => {
-        RegisterNuiCallbackType('submitData');
         on('__cfx_nui:submitData', (data) => {
             resolve(data);
             closeInput();
         });
 
-        RegisterNuiCallbackType('close')
         on('__cfx_nui:close', () => {
             resolve(false);
             closeInput();
